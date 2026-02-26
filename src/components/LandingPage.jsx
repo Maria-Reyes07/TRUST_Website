@@ -173,81 +173,42 @@ export function LandingPage() {
           <div className="h-px w-64 mx-auto bg-gradient-to-r from-transparent via-white to-transparent opacity-50 mb-16" />
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {/* Team Member 1 */}
+            {/* Maria */}
             <div className="text-center group">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <Users className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
+                <img src="./src/assets/Maria.jpeg" alt="" />
               </div>
-              <h3 className="text-2xl font-bold mb-2 tracking-wide">JORDAN RIVERS</h3>
+              <h3 className="text-2xl font-bold mb-2 tracking-wide">Maria</h3>
               <p className="text-sm text-gray-500 mb-3 tracking-wider">GAME DIRECTOR / LEAD PROGRAMMER</p>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Veteran game developer with 10+ years of experience in horror games. 
-                Jordan brings a passion for psychological terror and innovative game mechanics.
+                First time game developer with a background in software engineering. 
+                Maria's vision for T.R.U.S.T. is to create a deeply immersive horror experience that blurs the line between reality and nightmare. 
               </p>
             </div>
 
-            {/* Team Member 2 */}
+            {/* Talia */}
             <div className="text-center group">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <Users className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
+                <img src="./src/assets/talia.jpg" alt="Talia" className="w-full h-full object-cover" />
               </div>
-              <h3 className="text-2xl font-bold mb-2 tracking-wide">MAYA KATSUKI</h3>
-              <p className="text-sm text-gray-500 mb-3 tracking-wider">ART DIRECTOR / 3D ARTIST</p>
+              <h3 className="text-2xl font-bold mb-2 tracking-wide">Talia</h3>
+              <p className="text-sm text-gray-500 mb-3 tracking-wider">ANIMATOR / 3D ARTIST / CHARACTER DESIGNER</p>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Award-winning visual artist specializing in dark, atmospheric environments. 
-                Maya's unsettling aesthetic defines the visual identity of T.R.U.S.T.
+                With an amazing talent for creating unsettling and surreal visuals,
+                Talia brings the twisted world of T.R.U.S.T. to life with her hauntingly beautiful art style.
               </p>
             </div>
 
-            {/* Team Member 3 */}
+            {/* Von */}
             <div className="text-center group">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <Users className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
+                <img src="./src/assets/von.png" alt="Von" className="w-full h-full object-cover" />
               </div>
-              <h3 className="text-2xl font-bold mb-2 tracking-wide">CHRIS NOVAK</h3>
-              <p className="text-sm text-gray-500 mb-3 tracking-wider">SOUND DESIGNER / COMPOSER</p>
+              <h3 className="text-2xl font-bold mb-2 tracking-wide">Von</h3>
+              <p className="text-sm text-gray-500 mb-3 tracking-wider">3D ARTIST / CHARACTER DESIGNER</p>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Master of audio horror with a background in film and experimental music. 
-                Chris crafts the disturbing soundscapes that will haunt your nightmares.
-              </p>
-            </div>
-
-            {/* Team Member 4 */}
-            <div className="text-center group">
-              <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <Users className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
-              </div>
-              <h3 className="text-2xl font-bold mb-2 tracking-wide">ALEX TORRES</h3>
-              <p className="text-sm text-gray-500 mb-3 tracking-wider">NARRATIVE DESIGNER / WRITER</p>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Published horror author and narrative designer. Alex weaves the twisted 
-                story that blurs the line between game and reality.
-              </p>
-            </div>
-
-            {/* Team Member 5 */}
-            <div className="text-center group">
-              <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <Users className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
-              </div>
-              <h3 className="text-2xl font-bold mb-2 tracking-wide">RILEY PARK</h3>
-              <p className="text-sm text-gray-500 mb-3 tracking-wider">LEVEL DESIGNER</p>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Environmental storytelling expert who creates spaces that feel alive with dread. 
-                Every corner hides a story in Riley's meticulously crafted levels.
-              </p>
-            </div>
-
-            {/* Team Member 6 */}
-            <div className="text-center group">
-              <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <Users className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
-              </div>
-              <h3 className="text-2xl font-bold mb-2 tracking-wide">SAM NGUYEN</h3>
-              <p className="text-sm text-gray-500 mb-3 tracking-wider">UI/UX DESIGNER</p>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Interface designer who makes terror intuitive. Sam ensures that nothing 
-                stands between you and the nightmare except your own courage.
+                Von's way of capturing the character's emotions and expressions is truly remarkable. 
+                His work on the character design adds a layer of depth and realism that makes the horror feel all the more personal.
               </p>
             </div>
           </div>
@@ -316,7 +277,7 @@ export function LandingPage() {
             Available soon on multiple platforms
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {/* Steam */}
             <a
               href="#"
@@ -348,35 +309,6 @@ export function LandingPage() {
             </a>
           </div>
 
-          {/* System Requirements */}
-          <div className="max-w-4xl mx-auto">
-            <h3 className="text-3xl font-bold mb-8 tracking-wide">SYSTEM REQUIREMENTS</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-              {/* Minimum */}
-              <div className="p-6 border border-gray-700 bg-black bg-opacity-50">
-                <h4 className="text-xl font-bold mb-4 tracking-wide">MINIMUM</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li><span className="text-white">OS:</span> Windows 10 64-bit</li>
-                  <li><span className="text-white">Processor:</span> Intel Core i5</li>
-                  <li><span className="text-white">Memory:</span> 8 GB RAM</li>
-                  <li><span className="text-white">Graphics:</span> NVIDIA GTX 1060</li>
-                  <li><span className="text-white">Storage:</span> 20 GB available space</li>
-                </ul>
-              </div>
-
-              {/* Recommended */}
-              <div className="p-6 border border-gray-700 bg-black bg-opacity-50">
-                <h4 className="text-xl font-bold mb-4 tracking-wide">RECOMMENDED</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li><span className="text-white">OS:</span> Windows 11 64-bit</li>
-                  <li><span className="text-white">Processor:</span> Intel Core i7</li>
-                  <li><span className="text-white">Memory:</span> 16 GB RAM</li>
-                  <li><span className="text-white">Graphics:</span> NVIDIA RTX 3060</li>
-                  <li><span className="text-white">Storage:</span> 20 GB available space</li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -532,11 +464,39 @@ export function LandingPage() {
                 </div>
                 <span className="font-bold text-sm tracking-wide">TWITCH</span>
               </a>
+
+                <a
+                href="https://www.instagram.com/trustindiegame"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-2 hover:text-gray-400 transition-colors group"
+              >
+                <div className="w-16 h-16 rounded-full border-2 border-white flex items-center justify-center group-hover:bg-white group-hover:text-black transition-all">
+                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.332 3.608 1.308.975.975 1.245 2.242 1.308 3.607.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.063 1.365-.333 2.632-1.308 3.607-.975.975-2.242 1.246-3.607 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.365-.063-2.632-.333-3.607-1.308-.975-.975-1.246-2.242-1.308-3.607-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.332-2.633 1.308-3.608.975-.975 2.242-1.245 3.607-1.308 1.266-.058 1.646-.07 4.85-.07zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.778 6.98 6.978 1.28.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.668-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                  </svg>
+                </div>
+                <span className="font-bold text-sm tracking-wide">INSTAGRAM</span>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@trustindiegames"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-2 hover:text-gray-400 transition-colors group"
+              >
+                <div className="w-16 h-16 rounded-full border-2 border-white flex items-center justify-center group-hover:bg-white group-hover:text-black transition-all">
+                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                  </svg>
+                </div>
+                <span className="font-bold text-sm tracking-wide">TIKTOK</span>
+              </a>
             </div>
           </div>
 
           {/* Newsletter Signup */}
-          <div className="max-w-2xl mx-auto mb-8">
+          {/* <div className="max-w-2xl mx-auto mb-8">
             <h3 className="text-2xl font-bold mb-4 text-center tracking-wider">STAY UPDATED</h3>
             <p className="text-center text-gray-400 mb-6">Subscribe to our newsletter for exclusive updates and behind-the-scenes content</p>
             <form className="flex gap-4 flex-col sm:flex-row">
@@ -552,7 +512,7 @@ export function LandingPage() {
                 SUBSCRIBE
               </button>
             </form>
-          </div>
+          </div> */}
 
           {/* Copyright */}
           <div className="text-center text-gray-500 pt-8 border-t border-gray-800">

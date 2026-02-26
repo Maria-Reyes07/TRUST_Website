@@ -32,31 +32,22 @@ export function LionLogo() {
           }}
         />
         
-        {/* Lion Eyes */}
-        <div className="mb-8 flex justify-center gap-16">
-          {[0, 1].map((i) => (
-            <div key={i} className="relative">
-              <div className="w-20 h-20 rounded-full border-4 border-white bg-black flex items-center justify-center">
-                <div 
-                  className="w-8 h-8 rounded-full bg-white"
-                  style={{
-                    transform: glitchIntensity > 0.8 ? `translate(${Math.random() * 4 - 2}px, ${Math.random() * 4 - 2}px)` : 'none',
-                  }}
-                />
-              </div>
-              {/* Eye glow */}
-              <div className="absolute inset-0 rounded-full border-4 border-white opacity-30 blur-md" />
-            </div>
-          ))}
-        </div>
-
-        {/* Lion Nose */}
-        <div className="flex justify-center mb-12">
-          <div className="relative">
-            <div className="w-16 h-12 bg-white transform rotate-45" />
-            <div className="absolute top-0 left-0 w-16 h-12 bg-white opacity-20 blur-md transform rotate-45" />
+        {/* --- IMAGE SECTION --- */}
+        <div className="mb-8 flex justify-center">
+          <div className="relative group">
+            <img 
+              src="./src/assets/trust-logo.png" // Update this path!
+              alt="Lion Logo"
+              className="w-full h-auto max-w-[550px] mx-auto object-contain transition-transform duration-75"
+                style={{
+                  transform: glitchIntensity > 0.9 ? `translate(${Math.random() * 6 - 3}px, ${Math.random() * 6 - 3}px)` : 'none',
+                }}
+            />
+            {/* Image Glow Effect */}
+            <div className="absolute inset-0 bg-white opacity-5 blur-2xl rounded-full -z-10" />
           </div>
         </div>
+        {/* --------------------- */}
 
         {/* Title */}
         <h1 
