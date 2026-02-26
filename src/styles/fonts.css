@@ -1,0 +1,17 @@
+/* Add custom fonts here */
+
+/* Example: Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+/* If using Inter font, update body in theme.css to:
+   font-family: 'Inter', system-ui, -apple-system, sans-serif;
+*/
+
+/* Example: Custom horror font for headers */
+/* @font-face {
+  font-family: 'HorrorFont';
+  src: url('/fonts/horror-font.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
