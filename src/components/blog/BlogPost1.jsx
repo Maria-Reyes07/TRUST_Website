@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { Navbar } from '../navbar';
+import { Navbar } from '../Navbar';
 import { Calendar, User, ArrowLeft } from 'lucide-react';
 
 export function BlogPost1() {
