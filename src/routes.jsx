@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import { LandingPage } from "./components/LandingPage";
 import { BlogList } from "./components/BlogList";
 import { BlogPost1 } from "./components/blog/BlogPost1";
+import { CharacterPage } from './components/CharacterPage';
 
 
 export const router = createBrowserRouter([
@@ -25,4 +26,8 @@ export const router = createBrowserRouter([
   //   path: "/blog/sound-design-deep-dive",
   //   Component: BlogPost3,
   // },
+  {
+    path: "/character/:slug", 
+    Component: CharacterPage,
+  },
 ]);

@@ -20,12 +20,19 @@ export function LandingPage() {
           <h2 className="text-6xl font-bold mb-8 tracking-wider">ABOUT THE GAME</h2>
           <div className="h-px w-64 mx-auto bg-gradient-to-r from-transparent via-white to-transparent opacity-50 mb-8" />
           <p className="text-xl leading-relaxed text-gray-300 mb-6">
-            Enter a world where reality bends and truth is subjective. 
-            T.R.U.S.T. challenges your perception of what's real and what's not.
+            Step Into T.R.U.S.T.
+            Faith. Courage. Obedience.
           </p>
           <p className="text-xl leading-relaxed text-gray-300">
-            Navigate through psychological horror as you question every sight, 
-            every sound, and every shadow that moves in the corner of your vision.
+            Enter a maze crawling with demons, where your only guide is the voice of Abba Father. 
+            Every choice matters. Every step tests your heart, mind, and spirit.
+          </p>
+           <p className="text-xl leading-relaxed text-gray-300">
+            Arm yourself with unique weapons, sharpen your focus, and 
+            confront the darkness — because fear has no authority when trust is your strongest ally.
+          </p>
+          <p className="text-xl leading-relaxed text-gray-300 mt-6">
+            Do you have what it takes to TRUST? The game begins now.
           </p>
         </div>
       </section>
@@ -37,20 +44,20 @@ export function LandingPage() {
     <div className="h-px w-64 mx-auto bg-gradient-to-r from-transparent via-white to-transparent opacity-50 mb-16" />
     
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {/* Character 1 - The Watcher */}
+      {/* Character 1 - Ella-Leonza Calma */}
       <Link 
-        to="/character/the-watcher" 
+        to="/character/ella-leonza-calma" 
         className="border-2 border-gray-700 hover:border-white transition-all duration-300 bg-black bg-opacity-50 overflow-hidden group block"
       >
         <div className="aspect-square bg-gray-900 border-b-2 border-gray-700 group-hover:border-white transition-colors flex items-center justify-center">
-          <Skull className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
+          <img src="/characters/El_closeup.jpeg" alt="Ella-Leonza Calma" className="w-full h-full object-cover"/>
         </div>
         <div className="p-6">
           <h3 className="text-3xl font-bold mb-2 tracking-wide">Ella-Leonza Calma</h3>
-          <p className="text-sm text-gray-500 mb-4 tracking-wider">Colossians 04:05-06</p>
+          <p className="text-sm text-gray-500 mb-4 tracking-wider">COLOSSIANS 04:05-06</p>
           <p className="text-gray-400 leading-relaxed">
-            “5 Walk in wisdom toward those who are outside, redeeming the time. 
-            6 Let your speech always be with grace, seasoned with salt, that you may know how you ought to answer each one.”
+            “05 | Walk in wisdom toward those who are outside, redeeming the time. 
+            06 | Let your speech always be with grace, seasoned with salt, that you may know how you ought to answer each one.”
           </p>
           <p className="text-white font-bold tracking-wide mt-4 group-hover:text-gray-300 transition-colors">
             READ MORE →
@@ -58,20 +65,40 @@ export function LandingPage() {
         </div>
       </Link>
 
-      {/* Character 2 - Alex Morgan */}
+      {/* Character 2 - R'Reei Spencer */}
       <Link 
-        to="/character/alex-morgan" 
+        to="/character/rreei-spencer" 
+        className="border-2 border-gray-700 hover:border-white transition-all duration-300 bg-black bg-opacity-50 overflow-hidden group block"
+      >
+        <div className="aspect-square bg-gray-900 border-b-2 border-gray-700 group-hover:border-white transition-colors flex items-center justify-center">
+          <img src="/characters/rreei-profile.png" alt="R'Reei Spencer" className="w-full h-full object-cover"/>
+        </div>
+        <div className="p-6">
+          <h3 className="text-3xl font-bold mb-2 tracking-wide">R'REEI SPENCER</h3>
+          <p className="text-sm text-gray-500 mb-4 tracking-wider">HEBREWS 12:11</p>
+          <p className="text-gray-400 leading-relaxed">
+            “11 | Now no chastening seems to be joyful for the present, but painful; nevertheless, 
+            afterward it yields the peaceable fruit of righteousness to those who have been trained by it.”
+          </p>
+          <p className="text-white font-bold tracking-wide mt-4 group-hover:text-gray-300 transition-colors">
+            READ MORE →
+          </p>
+        </div>
+      </Link>
+
+      {/* Robin Baker */}
+      <Link 
+        to="/character/robin-baker" 
         className="border-2 border-gray-700 hover:border-white transition-all duration-300 bg-black bg-opacity-50 overflow-hidden group block"
       >
         <div className="aspect-square bg-gray-900 border-b-2 border-gray-700 group-hover:border-white transition-colors flex items-center justify-center">
           <User className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
         </div>
         <div className="p-6">
-          <h3 className="text-3xl font-bold mb-2 tracking-wide">ALEX MORGAN</h3>
-          <p className="text-sm text-gray-500 mb-4 tracking-wider">PROTAGONIST</p>
+          <h3 className="text-3xl font-bold mb-2 tracking-wide">Robin Baker</h3>
+          <p className="text-sm text-gray-500 mb-4 tracking-wider">PROVERBS 31:25</p>
           <p className="text-gray-400 leading-relaxed">
-            A journalist investigating strange occurrences in an abandoned facility. 
-            Armed with only a camera and determination, Alex must uncover the truth before reality itself collapses.
+            “25 | Strength and dignity are her clothing, and she laughs at the time to come.”
           </p>
           <p className="text-white font-bold tracking-wide mt-4 group-hover:text-gray-300 transition-colors">
             READ MORE →
@@ -79,20 +106,19 @@ export function LandingPage() {
         </div>
       </Link>
 
-      {/* Character 3 - Dr. Sarah Chen */}
+      {/* Jeremiah Tech */}
       <Link 
-        to="/character/dr-sarah-chen" 
+        to="/character/jeremiah-tech" 
         className="border-2 border-gray-700 hover:border-white transition-all duration-300 bg-black bg-opacity-50 overflow-hidden group block"
       >
         <div className="aspect-square bg-gray-900 border-b-2 border-gray-700 group-hover:border-white transition-colors flex items-center justify-center">
           <User className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
         </div>
         <div className="p-6">
-          <h3 className="text-3xl font-bold mb-2 tracking-wide">DR. SARAH CHEN</h3>
-          <p className="text-sm text-gray-500 mb-4 tracking-wider">ALLY / ???</p>
+          <h3 className="text-3xl font-bold mb-2 tracking-wide">JEREMIAH TECH</h3>
+          <p className="text-sm text-gray-500 mb-4 tracking-wider">JEREMIAH 29:11</p>
           <p className="text-gray-400 leading-relaxed">
-            The last surviving scientist from the failed experiment. Her cryptic messages 
-            may be your only hope... or the final piece of a sinister puzzle.
+            “11 | For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, to give you hope and a future.”
           </p>
           <p className="text-white font-bold tracking-wide mt-4 group-hover:text-gray-300 transition-colors">
             READ MORE →
@@ -100,41 +126,21 @@ export function LandingPage() {
         </div>
       </Link>
 
-      {/* Character 4 - The Echoes */}
+      {/* Tanner Blacksmith */}
       <Link 
-        to="/character/the-echoes" 
-        className="border-2 border-gray-700 hover:border-white transition-all duration-300 bg-black bg-opacity-50 overflow-hidden group block"
-      >
-        <div className="aspect-square bg-gray-900 border-b-2 border-gray-700 group-hover:border-white transition-colors flex items-center justify-center">
-          <Skull className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
-        </div>
-        <div className="p-6">
-          <h3 className="text-3xl font-bold mb-2 tracking-wide">THE ECHOES</h3>
-          <p className="text-sm text-gray-500 mb-4 tracking-wider">ENTITIES</p>
-          <p className="text-gray-400 leading-relaxed">
-            Remnants of past victims trapped between dimensions. They appear as distorted 
-            reflections of reality, mimicking human behavior but lacking humanity.
-          </p>
-          <p className="text-white font-bold tracking-wide mt-4 group-hover:text-gray-300 transition-colors">
-            READ MORE →
-          </p>
-        </div>
-      </Link>
-
-      {/* Character 5 - Marcus Vale */}
-      <Link 
-        to="/character/marcus-vale" 
+        to="/character/tanner-blacksmith" 
         className="border-2 border-gray-700 hover:border-white transition-all duration-300 bg-black bg-opacity-50 overflow-hidden group block"
       >
         <div className="aspect-square bg-gray-900 border-b-2 border-gray-700 group-hover:border-white transition-colors flex items-center justify-center">
           <User className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
         </div>
         <div className="p-6">
-          <h3 className="text-3xl font-bold mb-2 tracking-wide">MARCUS VALE</h3>
-          <p className="text-sm text-gray-500 mb-4 tracking-wider">UNKNOWN</p>
+          <h3 className="text-3xl font-bold mb-2 tracking-wide">TANNER BLACKSMITH</h3>
+          <p className="text-sm text-gray-500 mb-4 tracking-wider">JOHN 14:01-03</p>
           <p className="text-gray-400 leading-relaxed">
-            A voice on the radio. A face in old photographs. Someone who claims to be trying 
-            to help you escape. But can you trust someone who shouldn't exist?
+           "01 | Do not let your hearts be troubled. You believe in God; believe also in me. 
+           02 | My Father’s house has many rooms; if that were not so, would I have told you that I am going there to prepare a place for you? 
+           03 | And if I go and prepare a place for you, I will come back and take you to be with me that you also may be where I am."
           </p>
           <p className="text-white font-bold tracking-wide mt-4 group-hover:text-gray-300 transition-colors">
             READ MORE →
@@ -142,20 +148,19 @@ export function LandingPage() {
         </div>
       </Link>
 
-      {/* Character 6 - IT */}
+      {/* Kai Baker */}
       <Link 
-        to="/character/it" 
+        to="/character/kai-baker" 
         className="border-2 border-gray-700 hover:border-white transition-all duration-300 bg-black bg-opacity-50 overflow-hidden group block"
       >
         <div className="aspect-square bg-gray-900 border-b-2 border-gray-700 group-hover:border-white transition-colors flex items-center justify-center">
-          <Skull className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
+          <User className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
         </div>
         <div className="p-6">
-          <h3 className="text-3xl font-bold mb-2 tracking-wide">IT</h3>
-          <p className="text-sm text-gray-500 mb-4 tracking-wider">???</p>
+          <h3 className="text-3xl font-bold mb-2 tracking-wide">KAI BAKER</h3>
+          <p className="text-sm text-gray-500 mb-4 tracking-wider">NUMBERS 23:19</p>
           <p className="text-gray-400 leading-relaxed">
-            You'll know when you see it. Or maybe you won't. Maybe it's been with you 
-            all along. Maybe it's reading this right now through your eyes.
+            "19 | God is not human, that he should lie, not a human being, that he should change his mind. Does he speak and then not act? Does he promise and not fulfill?"
           </p>
           <p className="text-white font-bold tracking-wide mt-4 group-hover:text-gray-300 transition-colors">
             READ MORE →
