@@ -411,7 +411,11 @@ export function LandingPage() {
             {/* Blog Post 3 */}
             <article className="border border-gray-700 bg-black bg-opacity-50 overflow-hidden hover:border-white transition-colors group">
               <div className="aspect-video bg-gray-900 border-b border-gray-700 flex items-center justify-center">
-                <img src="/screenshots/vexara.jpeg" alt="Vexara's character design" />
+                <img 
+                    src="/screenshots/vexara.jpeg" 
+                    alt="Vexara's character design"
+                    className="w-full h-full object-cover"
+                  />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
@@ -421,7 +425,7 @@ export function LandingPage() {
                   </span>
                   <span className="flex items-center gap-1">
                     <User className="w-4 h-4" />
-                    Maria
+                    Talia
                   </span>
                 </div>
                 <h3 className="text-2xl font-bold mb-3 tracking-wide group-hover:text-gray-300 transition-colors">
