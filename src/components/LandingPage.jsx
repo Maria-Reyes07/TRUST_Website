@@ -409,6 +409,34 @@ export function LandingPage() {
             </article>
 
             {/* Blog Post 3 */}
+            <article className="border border-gray-700 bg-black bg-opacity-50 overflow-hidden hover:border-white transition-colors group">
+              <div className="aspect-video bg-gray-900 border-b border-gray-700 flex items-center justify-center">
+                <img src="/screenshots/vexara.jpeg" alt="Vexara's character design" />
+              </div>
+              <div className="p-6">
+                <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
+                  <span className="flex items-center gap-1">
+                    <Calendar className="w-4 h-4" />
+                    March 11, 2026
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <User className="w-4 h-4" />
+                    Maria
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold mb-3 tracking-wide group-hover:text-gray-300 transition-colors">
+                  3D Art Update #1
+                </h3>
+                <p className="text-gray-400 mb-4">
+                  Our 3D artists have been hard at work creating the twisted world of T.R.U.S.T. Here's a sneak peek at some of the character designs and environments...
+                </p>
+                <Link to="/blog/3d-art-update-1" className="text-white hover:text-gray-300 font-bold tracking-wide">
+                  READ MORE →
+                </Link>
+              </div>
+            </article>
+
+            {/* Blog Post 4 */}
             {/* <article className="border border-gray-700 bg-black bg-opacity-50 overflow-hidden hover:border-white transition-colors group">
               <div className="aspect-video bg-gray-900 border-b border-gray-700 flex items-center justify-center">
                 <span className="text-gray-600">Featured Image</span>
