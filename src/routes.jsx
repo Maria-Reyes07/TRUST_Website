@@ -32,7 +32,7 @@ export const router = createBrowserRouter([
     Component: BlogPost3,
   },
   {
-        path: "/blog/3d-art-update-2",
+    path: "/blog/3d-art-update-2",
     Component: BlogPost4,
   },
   {

@@ -2,7 +2,7 @@ import { Link } from 'react-router';
 import { Navbar } from '../Navbar';
 import { Calendar, User, ArrowLeft } from 'lucide-react';
 
-export function BlogPost5() {
+export function BlogPost4() {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navbar />
