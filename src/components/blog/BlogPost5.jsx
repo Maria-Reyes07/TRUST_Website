@@ -42,7 +42,7 @@ export function BlogPost5() {
         {/* Featured Image */}
         <div className="aspect-video bg-gray-900 border border-gray-700 flex items-center justify-center mb-12 overflow-hidden">
           <img
-            src="/screenshots/main_menu.png"
+            src="/screenshots/Reei_Loading_Screen.png"
             alt="T.R.U.S.T. main menu"
             className="w-full h-full object-contain"
           />

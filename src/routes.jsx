@@ -32,7 +32,7 @@ export const router = createBrowserRouter([
     Component: BlogPost3,
   },
   {
-    path: "/blog/3d-art-update-2",
+    path: "/blog/art-update-1",
     Component: BlogPost4,
   },
   {
@@ -40,7 +40,7 @@ export const router = createBrowserRouter([
     Component: BlogPost5,
   },
   {
-    path: "/blog/art-update-3",
+    path: "/blog/art-update-2",
     Component: BlogPost6,
   },
   {
