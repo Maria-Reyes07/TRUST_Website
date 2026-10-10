@@ -4,7 +4,9 @@ import { BlogList } from "./components/BlogList";
 import { BlogPost1 } from "./components/blog/BlogPost1";
 import { BlogPost2 } from "./components/blog/BlogPost2";
 import { BlogPost3 } from "./components/blog/BlogPost3";
-// import { BlogPost4 } from "./components/blog/BlogPost4";
+import { BlogPost4 } from "./components/blog/BlogPost4";
+import { BlogPost5 } from "./components/blog/BlogPost5";
+import { BlogPost6 } from "./components/blog/BlogPost6";
 import { CharacterPage } from './components/CharacterPage';
 
 
