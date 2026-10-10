@@ -45,7 +45,7 @@ export function BlogPost4() {
             playsinline
             className="w-full h-full object-contain"
           >
-            <source src="/videos/vexara_walk.mov" type="video/mp4" />
+            <source src="/videos/vexara_walk.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

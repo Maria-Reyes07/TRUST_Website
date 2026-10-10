@@ -42,7 +42,7 @@ export function BlogPost2() {
             loop
             muted
           >
-            <source src="/videos/Splash_loadin_main_menu.mov" type="video/mp4" />
+            <source src="/videos/Splash_loadin_main_menu.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
