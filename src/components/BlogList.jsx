@@ -32,12 +32,12 @@ const blogPosts = [
   },
   {
     id: 4,
-    slug: '3d-art-update-2',
-    title: '3D Art Update #2',
+    slug: 'art-update-1',
+    title: 'Art Update #1',
     author: 'Art Team',
     date: 'Oct 2, 2026',
-    excerpt: "Overview: Complete 3d model and animation by the end of the month",
-    image: '/screenshots/vexara.jpeg',
+    excerpt: "Overview: Talia our enemy designer and animator has an update about Vexara.",
+    image: '/screenshots/vexara_line_walk.png',
   },
   {
     id: 5,
@@ -50,12 +50,12 @@ const blogPosts = [
   },
   {
     id: 6,
-    slug: 'art-update-3',
-    title: 'Art Update #3',
+    slug: 'art-update-2',
+    title: 'Art Update #2',
     author: 'Art Team',
     date: 'Oct 9, 2026',
     excerpt: "Overview: I've redesigned the main menu",
-    image: '/screenshots/main_menu.png',
+    image: '/screenshots/MainMenu.png',
   }
 ];
 

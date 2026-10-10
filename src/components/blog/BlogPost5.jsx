@@ -131,7 +131,7 @@ export function BlogPost5() {
           </Link>
 
           <Link
-            to="/blog/art-update-3"
+            to="/blog/art-update-2"
             className="text-gray-400 hover:text-white transition-colors font-bold tracking-wide"
           >
             NEXT POST →
