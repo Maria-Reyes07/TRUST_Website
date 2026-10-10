@@ -30,15 +30,33 @@ const blogPosts = [
     excerpt: "Overview: Build 3d model fully animated by the end of the month",
     image: '/public/screenshots/vexara.jpeg',
   },
-  //   {
-  //   id: 4,
-  //   slug: '3d-art-update-1',
-  //   title: '3D Art Update #1',
-  //   author: 'Art Team',
-  //   date: 'Mar 11, 2026',
-  //   excerpt: "Overview: Build 3d model fully animated by the end of the month",
-  //   image: '/public/screenshots/vexara.jpeg',
-  // },
+  {
+    id: 4,
+    slug: '3d-art-update-2',
+    title: '3D Art Update #2',
+    author: 'Art Team',
+    date: 'Oct 2, 2026',
+    excerpt: "Overview: Complete 3d model and animation by the end of the month",
+    image: '/public/screenshots/vexara.jpeg',
+  },
+  {
+    id: 5,
+    slug: 'development-update-3',
+    title: 'Development Update #3',
+    author: 'Dev Team',
+    date: 'Oct 9, 2026',
+    excerpt: "Overview: Implement new features and improvements",
+    image: '/public/screenshots/phone_scene.png',
+  },
+  {
+    id: 6,
+    slug: 'art-update-3',
+    title: 'Art Update #3',
+    author: 'Art Team',
+    date: 'Oct 9, 2026',
+    excerpt: "Overview: I've redesigned the main menu",
+    image: '/public/screenshots/main_menu.png',
+  }
 ];
 
 export function BlogList() {

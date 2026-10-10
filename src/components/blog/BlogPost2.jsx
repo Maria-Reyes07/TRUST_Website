@@ -117,7 +117,7 @@ export function BlogPost2() {
             ← ALL POSTS
           </Link>
           <Link 
-            to="/blog/development-update-3"
+            to="/blog/3d-art-update-1"
             className="text-gray-400 hover:text-white transition-colors font-bold tracking-wide"
           >
             NEXT POST →
