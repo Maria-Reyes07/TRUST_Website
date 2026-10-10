@@ -29,10 +29,18 @@ export const router = createBrowserRouter([
     path: "/blog/3d-art-update-1",
     Component: BlogPost3,
   },
-  // {
-  //       path: "/blog/3d-art-update-1",
-  //   Component: BlogPost4,
-  // },
+  {
+        path: "/blog/3d-art-update-2",
+    Component: BlogPost4,
+  },
+  {
+    path: "/blog/development-update-3",
+    Component: BlogPost5,
+  },
+  {
+    path: "/blog/art-update-3",
+    Component: BlogPost6,
+  },
   {
     path: "/character/:slug", 
     Component: CharacterPage,

@@ -10,7 +10,7 @@ const blogPosts = [
     author: 'Dev Team',
     date: 'Feb 20, 2026',
     excerpt: "We're excited to share our progress on T.R.U.S.T. and give you a behind-the-scenes look at what we've been working on...",
-    image:  '/public/screenshots/main_menu.png',
+    image:  '/screenshots/main_menu.png',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const blogPosts = [
     author: 'Dev Team',
     date: 'Feb 28, 2026',
     excerpt: 'We’ve made significant progress on T.R.U.S.T. and are excited to share what we’ve been working on...',
-    image: '/public/screenshots/splashscreen.png',
+    image: '/screenshots/splashscreen.png',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const blogPosts = [
     author: 'Art Team',
     date: 'Mar 11, 2026',
     excerpt: "Overview: Build 3d model fully animated by the end of the month",
-    image: '/public/screenshots/vexara.jpeg',
+    image: '/screenshots/vexara.jpeg',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const blogPosts = [
     author: 'Art Team',
     date: 'Oct 2, 2026',
     excerpt: "Overview: Complete 3d model and animation by the end of the month",
-    image: '/public/screenshots/vexara.jpeg',
+    image: '/screenshots/vexara.jpeg',
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const blogPosts = [
     author: 'Dev Team',
     date: 'Oct 9, 2026',
     excerpt: "Overview: Implement new features and improvements",
-    image: '/public/screenshots/phone_scene.png',
+    image: '/screenshots/phone_scene.png',
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ const blogPosts = [
     author: 'Art Team',
     date: 'Oct 9, 2026',
     excerpt: "Overview: I've redesigned the main menu",
-    image: '/public/screenshots/main_menu.png',
+    image: '/screenshots/main_menu.png',
   }
 ];
 
